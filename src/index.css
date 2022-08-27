@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Freight;
+  src: url(./fonts/Freight.ttf);
+}
+@font-face {
+  font-family: Luam;
+  src: url(./fonts/FontsFree-Net-Luam-Regular.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+.min-width{
+  min-width: calc(50% - 10px);
+}
+/* .slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+} */
+
+.containers {
+  height: 80px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.zIndex{
+  z-index: 1;
+}
